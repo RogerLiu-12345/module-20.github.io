@@ -62,7 +62,7 @@ div
 		border: 1px solid black;
 		text-align: center;
 		font-weight: bold;
-		background-color: white;
+		background-color: green;
 }
 .title_3{
 		float: right;
@@ -72,7 +72,7 @@ div
 		border: 1px solid black;
 		text-align: center;
 		font-weight: bold;
-		background-color: white;
+		background-color: blue;
 }
 .parent
 {
