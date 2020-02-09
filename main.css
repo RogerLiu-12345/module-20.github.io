@@ -1,3 +1,13 @@
+*
+{
+	box-sizing: border-box;
+}
+html
+{
+	overflow-y: scroll;
+	font-family: arial;
+}
+}
 div
 {
 	padding-right: 5px;
@@ -117,7 +127,7 @@ div
 	float: left;
 	padding: 15px;
 }
-@media only screen and (max-width: 991px)
+@media only screen and (max-width: 992px)
 {
 	.section_1 .section_2
 	{
@@ -135,7 +145,7 @@ div
 		width: 100%;
 	}
 	.section_1{
-		margin-right: 175px;
+		margin-right: 243px;
 	}
 }
 @media only screen and (max-width: 768px)
