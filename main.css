@@ -104,7 +104,7 @@ div
 		margin: auto;
 	}
 }
-@media only screen and (min-width: 600px)
+@media only screen and (min-width: 668px)
 {
 .col-t-1{width: 10%;}
 .col-t-2{width: 20%;}
@@ -117,7 +117,7 @@ div
 .col-t-9{width: 90%;}
 .col-t-10{width: 100%;}
 }
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 991px)
 {
 .col-1{width: 10%;}
 .col-2{width: 20%;}
