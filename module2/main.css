@@ -2,7 +2,7 @@ div
 {
 	padding-right: 5px;
 }
-.fav
+.bar
 {
 	text-align: center;
 }
@@ -18,7 +18,7 @@ div
 {
 	font: 15px solid verdana;
 }
-section
+div
 {
 	text-align: top;
 	text-align: right;
@@ -36,11 +36,10 @@ section
 }
 .section_1
 {
-	border: 1px solid #000000;
 	background-color: yellow;
-	height: 200px;
+	height: 400px;
 	width: 400px;
-	margin: 10px;
+	margin: 5px;
 }
 .title_1
 {
@@ -49,11 +48,10 @@ section
 }
 .section_2
 {
-	border: 1px solid #000000;
 	background-color: blue;
-	height: 200px;
+	height: 400px;
 	width: 400px;
-	margin: 10px;
+	margin: 5px;
 }
 .title_2
 {
@@ -62,11 +60,11 @@ section
 }
 .section_3
 {
-	border: 1px solid #000000;
 	background-color: red;
-	height: 200px;
+	height: 400px;
 	width: 400px;
-	margin: 10px;
+	margin: 5px;
+	margin-left: none;
 }
 .title_3
 {
@@ -104,4 +102,30 @@ section
 	{
 		margin: auto;
 	}
+}
+@media only screen and (min-width: 600px)
+{
+.col-t-1{width: 10%;}
+.col-t-2{width: 20%;}
+.col-t-3{width: 30%;}
+.col-t-4{width: 40%;}
+.col-t-5{width: 50%;}
+.col-t-6{width: 60%;}
+.col-t-7{width: 70%;}
+.col-t-8{width: 80%;}
+.col-t-9{width: 90%;}
+.col-t-10{width: 100%;}
+}
+@media only screen and (min-width: 768px)
+{
+.col-1{width: 10%;}
+.col-2{width: 20%;}
+.col-3{width: 30%;}
+.col-4{width: 40%;}
+.col-5{width: 50%;}
+.col-6{width: 60%;}
+.col-7{width: 70%;}
+.col-8{width: 80%;}
+.col-9{width: 90%;}
+.col-10{width: 100%;}
 }
