@@ -1,0 +1,107 @@
+div
+{
+	padding-right: 5px;
+}
+.fav
+{
+	text-align: center;
+}
+.text_1
+{
+	font: 15px solid verdana;
+}
+.text_2
+{
+	font: 15px solid verdana;
+}
+.text_3
+{
+	font: 15px solid verdana;
+}
+section
+{
+	text-align: top;
+	text-align: right;
+}
+.section_1 .section_2 .section_3
+{
+	font-weight: bold;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.parent
+{
+	display : -webkit-box;
+	-webkit-box-orient : horizontal;
+}
+.section_1
+{
+	border: 1px solid #000000;
+	background-color: yellow;
+	height: 200px;
+	width: 400px;
+	margin: 10px;
+}
+.title_1
+{
+	text-align: top-right;
+	font-weight: bold;
+}
+.section_2
+{
+	border: 1px solid #000000;
+	background-color: blue;
+	height: 200px;
+	width: 400px;
+	margin: 10px;
+}
+.title_2
+{
+	text-align: top-right;
+	font-weight: bold;
+}
+.section_3
+{
+	border: 1px solid #000000;
+	background-color: red;
+	height: 200px;
+	width: 400px;
+	margin: 10px;
+}
+.title_3
+{
+	text-align: top-right;
+	font-weight: bold;
+}
+[class*="col-"]
+{
+	float: left;
+	padding: 15px;
+}
+@media only screen and (max-width: 991px)
+{
+	.section_1 .section_2
+	{
+		width: 50%;
+	}
+	.bar
+	{
+		margin: auto;
+	}
+	.section_3
+	{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 668px)
+{
+	.section_1 .section_2 .section_3
+	{
+		width: 100%;
+		text-align: center;
+	}
+	.bar
+	{
+		margin: auto;
+	}
+}
